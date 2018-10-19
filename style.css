@@ -93,3 +93,23 @@
   display: inline-block;
   margin-right: 18px;
 }
+
+.ctn-listen-now{
+  background: #2D3E50;
+  width: 100%;
+  height: 75px;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+}
+
+.ctn-listen-now a{
+  color: #2D3E50;
+  font-weight: 700;
+  margin-left: 15px;
+  text-decoration: none;
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 13px;
+}
