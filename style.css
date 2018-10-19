@@ -2,24 +2,94 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container{
   width: 100vw;
   height: 100vh;
-  background: red;
 }
 
-.navigation-bar{
+.pre-navigation-bar{
   width: 100%;
   height: 75px;
   background: #F5F8FA;
   border-bottom: 1px solid #CBD6E2;
 }
 
+.pre-nav-bar-element{
+  width: 60%;
+  height: 75px;
+  margin: auto;
+  line-height: 75px;
+}
+
+.linguaggio{
+  display: inline-block;
+  line-height: 35px;
+  margin-left: 10px;
+  border-right: 2px solid lightgrey;
+}
+
+.linguaggio i{
+  margin-right: 10px;
+  color: grey;
+}
+
+.telefono{
+  display: inline-block;
+  line-height: 35px;
+  margin-left: 10px;
+}
+
+.telefono i{
+  color: grey;
+}
+
+.search{
+  float: right;
+}
+
+.search i{
+  margin-right: 10px;
+}
+
+.search a{
+  text-decoration: none;
+  background: #ff7a59;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+}
+
+.navigation-bar{
+  width: 100%;
+  height: 75px;
+}
+
 .nav-bar-element{
   width: 60%;
   height: 75px;
   margin: auto;
-  background: yellow;
+  line-height: 75px;
+}
+
+.logo{
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 75px;
+}
+
+.logo img{
+  width: 50%;
+}
+
+.menu{
+  float:right;
+}
+
+.menu ul li{
+  display: inline-block;
+  margin-right: 18px;
 }
