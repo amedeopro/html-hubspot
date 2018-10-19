@@ -113,3 +113,47 @@
   border-radius: 5px;
   font-size: 13px;
 }
+
+.grow-slide{
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(to top right, rgba(35,116,145,1) 0%,rgba(0,158,186,1) 50%,rgba(103,200,216,1) 100%);
+  color: white;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.grow-inner{
+  width: 60%;
+  margin: auto;
+}
+
+.grow-content{
+  width: 40%;
+  margin-left: 10px;
+}
+
+.grow-title{
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.grow-sub-title{
+  margin-bottom: 35px;
+}
+
+.grow-button a{
+  color: #2D3E50;
+  font-weight: 700;
+  text-decoration: none;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.grow-sub-button{
+  width: 35%;
+  margin-top: 35px;
+  font-size: 10px;
+}
