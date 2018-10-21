@@ -89,6 +89,11 @@
   float:right;
 }
 
+.menu-button{
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .menu ul li{
   display: inline-block;
   margin-right: 18px;
@@ -121,6 +126,7 @@
   color: white;
   margin: auto;
   padding-top: 70px;
+  border-bottom: 2px solid black;
 }
 
 .grow-inner{
@@ -156,4 +162,16 @@
   width: 35%;
   margin-top: 35px;
   font-size: 10px;
+}
+
+.powerful{
+  width: 800px;
+  height: 320px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.powerful img{
+  width: 50%;
 }
