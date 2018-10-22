@@ -307,17 +307,20 @@ hr.style-eight:after {
 }
 
 .box-container{
-  width:60%;
+  width: 100%;
+}
+
+.box-inner{
+  width: 60%;
   margin: auto;
 }
 
 .box{
-  width: 30%;
+  width: calc((100% / 3) - (40px / 3));
   background: white;
   text-align: center;
   box-shadow: 4px 0px 10px rgba(0,0,0,0.1);
-  display: inline-block;
-  margin-right: 20px;
+  float: left;
   margin-top: 30px;
 }
 
@@ -325,11 +328,14 @@ hr.style-eight:after {
   width: 30%;
 }
 
-.cer-box{
-  width: 25px;
-  height: 25px;
-  border-radius: 100px;
-  background: orange;
-  color: white;
-  display: inline-block;
+.box-left{
+  margin-right: 20px;
+}
+
+.box-center{
+  margin-right: 20px;
+}
+
+.box-right{
+  margin-right: 0 !important;
 }
