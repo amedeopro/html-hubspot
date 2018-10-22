@@ -13,6 +13,7 @@ body{
   width: 100vw;
   height: 100vh;
   background: #F4F8FA;
+  overflow-x: hidden;
 }
 
 .pre-navigation-bar{
@@ -190,7 +191,7 @@ body{
 
 .crm-inner{
   width: 60%;
-  height: 250px;
+  height: 270px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: white;
@@ -245,6 +246,7 @@ hr.style-eight {
     font-size: 18px;
     font-weight: 700;
     margin-top: 35px;
+    margin-bottom: 30px;
 }
 
 hr.style-eight:after {
