@@ -322,20 +322,33 @@ hr.style-eight:after {
   box-shadow: 4px 0px 10px rgba(0,0,0,0.1);
   float: left;
   margin-top: 30px;
+  padding: 10px;
 }
 
-.box img{
-  width: 30%;
+.box p{
+  margin-bottom: 10px;
 }
 
 .box-left{
   margin-right: 20px;
 }
 
+.box-left img{
+  width: 40%;
+}
+
 .box-center{
   margin-right: 20px;
 }
 
+.box-center img{
+  width: 50%;
+}
+
 .box-right{
-  margin-right: 0 !important;
+  margin-right: 0;
+}
+
+.box-right img{
+  width: 35%;
 }
