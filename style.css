@@ -302,3 +302,21 @@ hr.style-eight:after {
   color: white;
   display: inline-block;
 }
+
+.disclaimer-left, .disclaimer-right{
+  height: 100%;
+  float: left;
+}
+
+.disclaimer-left{
+  width: 80%;
+}
+
+.disclaimer-right{
+  width: 20%;
+}
+
+.disclaimer-container{
+  width: 60%;
+  margin: auto;
+}
