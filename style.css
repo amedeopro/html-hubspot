@@ -238,11 +238,10 @@ text-align: center;
 hr.style-eight {
     overflow: visible;
     border: none;
-    border-top: 1px solid #333;
+    border-top: 1px solid #E1E6ED;
     color: #333;
     text-align: left;
-    width: 100%;
-    display: inline-block;
+    width: 75%;
     font-size: 18px;
     font-weight: 700;
     margin-top: 35px;
@@ -275,5 +274,33 @@ hr.style-eight:after {
   margin-left: 30px;
   margin-right: 30px;
   font-size: 15px;
+  display: inline-block;
+}
+
+.tre-box-ctn{
+  width: 100%;
+  margin-top: 35px;
+}
+
+.box{
+  width: 20%;
+  background: white;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 4px 0px 10px rgba(0,0,0,0.1);
+  margin: auto;
+  margin-top: 35px;
+}
+
+.box img{
+  width: 30%;
+}
+
+.cer-box{
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  background: orange;
+  color: white;
   display: inline-block;
 }
