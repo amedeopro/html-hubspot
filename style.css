@@ -226,12 +226,13 @@ body{
 .crm-left{
 float: left;
 text-align: center;
+width: 44%;
 }
 
 .crm-left  a{
   text-decoration: none;
   background: #ff7a59;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
   color: white;
   font-size: 13px;
@@ -325,16 +326,40 @@ hr.style-eight:after {
   padding: 10px;
 }
 
+.box hr{
+  width: 50%;
+  margin: auto;
+}
+
 .box p{
   margin-bottom: 10px;
 }
 
+.box-inner i{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
 .box-left{
   margin-right: 20px;
+  padding: 20px;
 }
 
 .box-left img{
   width: 40%;
+}
+
+.box-left h3{
+  margin-top: 20px;
+}
+
+.box-left ul{
+  margin-top: 25px;
+}
+
+.box-left ul li{
+  list-style: none;
+  text-align: left;
 }
 
 .box-center{
@@ -351,4 +376,51 @@ hr.style-eight:after {
 
 .box-right img{
   width: 35%;
+}
+
+.cerchio-orange{
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  background: orange;
+  text-align: center;
+  color: white;
+}
+
+.box-center h3{
+  margin-top: 20px;
+}
+
+.box-center ul{
+  margin-top: 25px;
+}
+
+.box-center ul li{
+  list-style: none;
+  text-align: left;
+}
+
+.box-right h3{
+  margin-top: 20px;
+}
+
+.box-right ul{
+  margin-top: 25px;
+}
+
+.box-right ul li{
+  list-style: none;
+  text-align: left;
+}
+
+.box-left a, .box-center a, .box-right  a{
+  text-decoration: none;
+  background: #ff7a59;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  display: block;
+  width: 40%;
+  margin: auto;
 }
