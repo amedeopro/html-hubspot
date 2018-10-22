@@ -306,12 +306,19 @@ hr.style-eight:after {
   margin-top: 35px;
 }
 
+.box-container{
+  width:60%;
+  margin: auto;
+}
+
 .box{
-  width: 20%;
+  width: 30%;
   background: white;
   text-align: center;
   box-shadow: 4px 0px 10px rgba(0,0,0,0.1);
-  margin: auto;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
 }
 
 .box img{
