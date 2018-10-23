@@ -502,4 +502,25 @@ hr.style-eight:after {
 .tab5{
   border-right: 1px solid white;
   padding: 40px;
+  display: inline-block;
+}
+
+.tab6{
+  border-right: 1px solid white;
+  padding: 40px;
+  display: inline-block;
+  margin-left: -4px;
+}
+
+.tab7{
+  border-right: 1px solid white;
+  padding: 40px;
+  display: inline-block;
+  margin-left: -4px;
+}
+
+.tab8{
+  padding: 40px;
+  display: inline-block;
+  margin-left: -4px;
 }
