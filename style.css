@@ -364,6 +364,7 @@ hr.style-eight:after {
 
 .box-center{
   margin-right: 20px;
+  padding: 20px;
 }
 
 .box-center img{
@@ -372,6 +373,7 @@ hr.style-eight:after {
 
 .box-right{
   margin-right: 0;
+  padding: 20px;
 }
 
 .box-right img{
@@ -423,4 +425,12 @@ hr.style-eight:after {
   display: block;
   width: 40%;
   margin: auto;
+}
+
+.slider-table{
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(to top right, rgba(35,116,145,1) 0%,rgba(0,158,186,1) 50%,rgba(103,200,216,1) 100%);
+  float: left;
+  margin-top: 60px;
 }
