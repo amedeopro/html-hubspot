@@ -473,6 +473,7 @@ hr.style-eight:after {
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   display: inline-block;
+  padding: 40px;
 }
 
 .tab2{
@@ -480,6 +481,7 @@ hr.style-eight:after {
   border-right: 1px solid white;
   display: inline-block;
   margin-left: -4px;
+  padding: 40px;
 }
 
 .tab3{
@@ -487,15 +489,17 @@ hr.style-eight:after {
   border-right: 1px solid white;
   display: inline-block;
   margin-left: -4px;
+  padding: 40px;
 }
 
 .tab4{
   border-bottom: 1px solid white;
   display: inline-block;
   margin-left: -4px;
+  padding: 40px;
 }
 
 .tab5{
   border-right: 1px solid white;
-
+  padding: 40px;
 }
